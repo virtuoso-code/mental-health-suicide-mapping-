@@ -160,16 +160,14 @@
     <button type="submit">Submit Anonymized Record</button>
   </form>
   <div class="success" id="successMsg">
-    ✔️ Data submitted locally. You can now export it or connect a backend.
+    Data submitted locally. You can now export it or connect a backend.
   </div>
 </section>
 
 <section>
   <h2>Local Dataset Preview</h2>
   <p>
-    For now, submissions are stored in your browser (localStorage). This is
-    ideal for GitHub Pages demos. Later, you can connect this to a database
-    or API.
+    For now, submissions are stored in browser (localStorage).
   </p>
   <button onclick="downloadCSV()">Download CSV</button>
 </section>
@@ -221,4 +219,5 @@
       URL.revokeObjectURL(url);
     }
   </script></body>
+
 </html>
